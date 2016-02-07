@@ -130,7 +130,3 @@ exports.arraysAnswers = {
     });
   }
 };
-
-
-
-//return this.safeFnCall(arr, function() {});
