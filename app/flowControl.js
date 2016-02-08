@@ -29,8 +29,8 @@ exports.flowControlAnswers = {
 
     if(typeof num === 'number') {
       return num;
-    } else {
-      return false;
     }
+
+    return false;
   }
 };
