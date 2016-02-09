@@ -20,13 +20,11 @@ exports.recursionAnswers = {
   },
 
   fibonacci: function(n) {
-    var x;
-
-    for(var i = 0, j = 1, k = 1; k < n; i = j, j = x, k++) {
-      x = i + j;
-      console.log(x);
+    if(n < 3) {
+      return 1;
     }
-    return x;
+
+    return this.fibonacci(n - 2) + this.fibonacci(n - 1);
   },
 
   validParentheses: function(n) {
